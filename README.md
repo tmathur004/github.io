@@ -21,4 +21,3 @@ This is a one-page personal portfolio website for Tvarita Mathur, a rising senio
 - `styles.css` — design, layout, and responsive styling
 
 
-Updated: contact email changed to mathurtvarita@gmail.com and quote section removed.
