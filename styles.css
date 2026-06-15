@@ -24,6 +24,7 @@ body {
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
+  font-weight: 400;
 }
 
 a {
@@ -50,8 +51,8 @@ a {
 
 .logo {
   text-decoration: none;
-  font-weight: 800;
-  letter-spacing: -0.03em;
+  font-weight: 600;
+  letter-spacing: -0.015em;
   color: var(--accent-dark);
 }
 
@@ -64,7 +65,7 @@ a {
 .nav-links a {
   text-decoration: none;
   color: var(--muted);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .nav-links a:hover {
@@ -84,34 +85,35 @@ a {
 .eyebrow {
   margin: 0 0 12px;
   text-transform: uppercase;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.14em;
   color: var(--accent);
   font-size: 0.78rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 h1,
 h2,
 h3 {
-  line-height: 1.1;
+  line-height: 1.12;
   margin-top: 0;
+  font-weight: 600;
 }
 
 h1 {
-  font-size: clamp(2.7rem, 6vw, 5.8rem);
-  letter-spacing: -0.075em;
+  font-size: clamp(2.6rem, 6vw, 5.6rem);
+  letter-spacing: -0.055em;
   margin-bottom: 24px;
 }
 
 h2 {
-  font-size: clamp(2rem, 4vw, 3.25rem);
-  letter-spacing: -0.055em;
+  font-size: clamp(2rem, 4vw, 3.15rem);
+  letter-spacing: -0.04em;
   margin-bottom: 18px;
 }
 
 h3 {
   font-size: 1.28rem;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.015em;
 }
 
 .hero-copy {
@@ -119,6 +121,7 @@ h3 {
   color: var(--muted);
   max-width: 690px;
   margin-bottom: 32px;
+  font-weight: 400;
 }
 
 .hero-actions {
@@ -133,7 +136,7 @@ h3 {
   justify-content: center;
   padding: 13px 20px;
   border-radius: 999px;
-  font-weight: 800;
+  font-weight: 600;
   text-decoration: none;
   transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
 }
@@ -176,7 +179,7 @@ h3 {
   border-radius: 999px;
   padding: 7px 12px;
   font-size: 0.78rem;
-  font-weight: 800;
+  font-weight: 600;
   margin-bottom: 18px;
 }
 
@@ -198,6 +201,7 @@ h3 {
 .contact p {
   color: var(--muted);
   font-size: 1.08rem;
+  font-weight: 400;
 }
 
 .grid {
@@ -220,6 +224,7 @@ h3 {
 .highlight-box li,
 .project-card li {
   color: var(--muted);
+  font-weight: 400;
 }
 
 ul {
@@ -263,7 +268,7 @@ li {
 
 .timeline-item span {
   color: var(--accent);
-  font-weight: 800;
+  font-weight: 600;
   font-size: 0.85rem;
 }
 
@@ -290,7 +295,7 @@ li {
   border-radius: 999px;
   padding: 12px 18px;
   text-decoration: none;
-  font-weight: 800;
+  font-weight: 600;
   color: var(--accent-dark);
 }
 
@@ -300,6 +305,7 @@ li {
   padding: 26px 24px;
   color: var(--muted);
   font-size: 0.92rem;
+  font-weight: 400;
 }
 
 @media (max-width: 860px) {
