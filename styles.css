@@ -206,6 +206,10 @@ h3 {
   gap: 22px;
 }
 
+.two-card-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .project-card {
   padding: 28px;
 }
@@ -224,6 +228,10 @@ ul {
 
 li {
   margin-bottom: 8px;
+}
+
+.internships {
+  border-top: 1px solid var(--border);
 }
 
 .advocacy {
@@ -310,6 +318,7 @@ li {
   .intro,
   .split,
   .grid,
+  .two-card-grid,
   .timeline {
     grid-template-columns: 1fr;
   }
