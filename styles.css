@@ -17,7 +17,15 @@
 html {
   scroll-behavior: smooth;
 }
-
+.project-image {
+  width: 100%;
+  margin-top: 18px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  box-shadow: 0 12px 30px rgba(24, 32, 42, 0.08);
+  display: block;
+  object-fit: cover;
+}
 body {
   margin: 0;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
